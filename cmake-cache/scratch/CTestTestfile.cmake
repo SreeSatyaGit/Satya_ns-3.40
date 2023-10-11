@@ -4,6 +4,8 @@
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
+add_test(ctest-scratch_exp1 "ns3.40-exp1-default")
+set_tests_properties(ctest-scratch_exp1 PROPERTIES  WORKING_DIRECTORY "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/build/scratch/" _BACKTRACE_TRIPLES "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/build-support/macros-and-definitions.cmake;1655;add_test;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/build-support/macros-and-definitions.cmake;1730;set_runtime_outputdirectory;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/CMakeLists.txt;57;build_exec;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/CMakeLists.txt;69;create_scratch;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/CMakeLists.txt;0;")
 add_test(ctest-scratch_exp2 "ns3.40-exp2-default")
 set_tests_properties(ctest-scratch_exp2 PROPERTIES  WORKING_DIRECTORY "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/build/scratch/" _BACKTRACE_TRIPLES "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/build-support/macros-and-definitions.cmake;1655;add_test;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/build-support/macros-and-definitions.cmake;1730;set_runtime_outputdirectory;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/CMakeLists.txt;57;build_exec;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/CMakeLists.txt;69;create_scratch;/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/CMakeLists.txt;0;")
 add_test(ctest-scratch_scratch-simulator "ns3.40-scratch-simulator-default")

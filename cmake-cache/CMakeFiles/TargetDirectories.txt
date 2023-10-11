@@ -1045,6 +1045,7 @@
 /Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/cmake-cache/examples/wireless/CMakeFiles/install.dir
 /Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/cmake-cache/examples/wireless/CMakeFiles/install/local.dir
 /Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/cmake-cache/examples/wireless/CMakeFiles/install/strip.dir
+/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/cmake-cache/scratch/CMakeFiles/scratch_exp1.dir
 /Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/cmake-cache/scratch/CMakeFiles/scratch_exp2.dir
 /Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/cmake-cache/scratch/CMakeFiles/scratch_scratch-simulator.dir
 /Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/cmake-cache/scratch/CMakeFiles/scratch_subdir_scratch-subdir.dir
