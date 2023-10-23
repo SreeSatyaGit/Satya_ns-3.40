@@ -105,7 +105,7 @@ main(int argc, char* argv[])
     WifiHelper wifi;
 
     NetDeviceContainer staDevices;
-    mac.SetType("ns3::StaWifiMac", "Ssid", SsidValue(ssid), "ActiveProbing", BooleanValue(false));
+    mac.SetType("ns3::AdhocWifiMac", "Ssid", SsidValue(ssid), "ActiveProbing", BooleanValue(false));
     staDevices = wifi.Install(phy, mac, wifiStaNodes);
 
     NetDeviceContainer apDevices;

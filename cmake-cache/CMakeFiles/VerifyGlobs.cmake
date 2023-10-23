@@ -5,8 +5,9 @@ cmake_policy(SET CMP0009 NEW)
 # single_source_file_scratches at scratch/CMakeLists.txt:67 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/[^.]*.cc")
 set(OLD_GLOB
-  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/exp1.cc"
-  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/exp2.cc"
+  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/First_Task1.cc"
+  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/Second_Task2.cc"
+  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/myThird.cc"
   "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/scratch-simulator.cc"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
@@ -39,8 +40,9 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES true "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/**")
 set(OLD_GLOB
   "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/CMakeLists.txt"
-  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/exp1.cc"
-  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/exp2.cc"
+  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/First_Task1.cc"
+  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/Second_Task2.cc"
+  "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/myThird.cc"
   "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/nested-subdir"
   "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/nested-subdir/CMakeLists.txt"
   "/Users/bharadwajanandivada/Downloads/ns-allinone-3.40/ns-3.40/scratch/nested-subdir/lib"
