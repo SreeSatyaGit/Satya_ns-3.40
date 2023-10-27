@@ -37,6 +37,8 @@ int main(int argc, char* argv[])
         LogComponentEnable("UdpEchoServerApplication", LOG_LEVEL_INFO);
     }
 
+    Config::SetDefault ("ns3::WifiRemoteStationManager::RtsCtsThreshold", StringValue ("0"));
+    
     NodeContainer wifiAdocNodes;
     wifiAdocNodes.Create(nWifi);
 
